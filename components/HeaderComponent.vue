@@ -84,6 +84,7 @@
         left: 0;
         width: 100%;
         z-index: 2;
+        background-color: #fff;
     }
     .v-btn:before {
         background-color: #eeeeee;
