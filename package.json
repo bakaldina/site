@@ -1,0 +1,27 @@
+{
+  "name": "Citymobil",
+  "version": "1.0.0",
+  "description": "citymobil",
+  "author": "Екатерина Бакалдина",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "sass": "^1.22.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.2.1",
+    "deepmerge": "^4.0.0",
+    "fibers": "^4.0.1",
+    "nodemon": "^1.18.9",
+    "vue-cli-plugin-vuetify": "git+https://github.com/vuetifyjs/vue-cli-plugin-vuetify.git#dev"
+  }
+}

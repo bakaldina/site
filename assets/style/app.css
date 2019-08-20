@@ -1,0 +1,103 @@
+/*
+Error: Invalid CSS after "...tion-controls) ": expected expression (e.g. 1px, bold), was "using ($material)"
+        on line 4 of ../../node_modules/vuetify/src/styles/components/_selection-controls.sass
+        from line 1 of ../../node_modules/vuetify/src/styles/components/_index.sass
+        from line 7 of ../../node_modules/vuetify/src/styles/main.sass
+        from line 1 of app.sass
+
+1: @import '../styles.sass'
+2: 
+3: // Theme
+4: +theme(v-input--selection-controls) using ($material)
+5:   &.v-input--is-disabled:not(.v-input--indeterminate)
+6:     .v-icon
+7:       // needed for helper override
+8:       color: map-deep-get($material, 'buttons', 'disabled') !important
+9: 
+
+Backtrace:
+../../node_modules/vuetify/src/styles/components/_selection-controls.sass:4
+../../node_modules/vuetify/src/styles/components/_index.sass:1
+../../node_modules/vuetify/src/styles/main.sass:7
+app.sass:1
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/lexer.rb:229:in `expected!'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/parser.rb:744:in `assert_done'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/parser.rb:123:in `parse_mixin_include_arglist'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:1141:in `parse_mixin_include'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:663:in `parse_line'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:539:in `build_tree'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:558:in `block in append_children'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:557:in `each'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:557:in `append_children'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:412:in `_to_tree'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:315:in `to_tree'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...tion-controls) \": expected expression (e.g. 1px, bold), was \"using ($material)\"\A         on line 4 of ../../node_modules/vuetify/src/styles/components/_selection-controls.sass\A         from line 1 of ../../node_modules/vuetify/src/styles/components/_index.sass\A         from line 7 of ../../node_modules/vuetify/src/styles/main.sass\A         from line 1 of app.sass\A \A 1: @import '../styles.sass'\A 2: \A 3: // Theme\A 4: +theme(v-input--selection-controls) using ($material)\A 5:   &.v-input--is-disabled:not(.v-input--indeterminate)\A 6:     .v-icon\A 7:       // needed for helper override\A 8:       color: map-deep-get($material, 'buttons', 'disabled') !important\A 9: "; }
