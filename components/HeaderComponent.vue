@@ -83,7 +83,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        z-index: 2;
+        z-index: 4;
         background-color: #fff;
     }
     .v-btn:before {
@@ -96,65 +96,6 @@
     .v-list {
         padding: 0!important;
     }
-    /*.header-tabs {*/
-        /*background-color: #f2f2f2;*/
-        /*height: 40px;*/
-    /*}*/
-    /*.v-menu__content {*/
-        /*box-shadow: none!important;*/
-    /*}*/
-    /*.theme--light.v-list {*/
-        /*background-color: #f2f2f2;*/
-    /*}*/
-    /*.header-tabs .v-btn {*/
-        /*padding: 0;*/
-        /*margin: 0;*/
-        /*font-size: 18px;*/
-        /*text-transform: inherit;*/
-        /*height: 40px;*/
-    /*}*/
-    /*.header-tabs .v-btn__content {*/
-        /*justify-content: space-between;*/
-        /*height: 40px;*/
-    /*}*/
-    /*.header-tabs .header-tabs-item:last-child .v-btn__content {*/
-        /*justify-content: flex-end;*/
-    /*}*/
-    /*.header-tabs .v-btn--active,*/
-    /*.header-tabs .v-btn:hover,*/
-    /*.header-tabs .v-btn:focus {*/
-        /*color: #ff7200!important;*/
-        /*background-color: #f2f2f2;*/
-    /*}*/
-    /*.header-tabs .v-btn:before,*/
-    /*.header-tabs .v-btn--active:before,*/
-    /*.header-tabs .v-btn:hover:before,*/
-    /*.header-tabs .v-btn:focus:before {*/
-        /*content: none;*/
-    /*}*/
-    /*.header-tabs .v-ripple__container {*/
-        /*display: none;*/
-    /*}*/
-    /*.header-tabs .v-menu__content {*/
-        /*box-shadow: none;*/
-        /*border-radius: 0;*/
-    /*}*/
-    /*.header-tabs .v-menu__content:before {*/
-        /*width: 200px;*/
-        /*height: 1px;*/
-        /*background-color: #878787;*/
-        /*content: "";*/
-        /*display: block;*/
-        /*position: absolute;*/
-        /*top: 0;*/
-        /*left: calc(50% - 100px);*/
-    /*}*/
-    /*.header-tabs-menu .theme--light.v-list .v-list__tile--link:hover,*/
-    /*.header-tabs-menu .theme--light.v-list .v-list__tile--highlighted,*/
-    /*.header-tabs-menu .theme--light.v-list .v-list__group__header:hover {*/
-        /*background: #f2f2f2;*/
-        /*color: #ff7200;*/
-    /*}*/
 </style>
 
 <script>

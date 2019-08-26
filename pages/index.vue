@@ -15,6 +15,7 @@
               </v-carousel>
               <tariff-component></tariff-component>
           </div>
+          <footer-component></footer-component>
       </div>
   </v-layout>
 </template>
@@ -23,6 +24,7 @@
 import HeaderComponent from '~/components/HeaderComponent.vue'
 import HeaderBanner from '~/components/HeaderBanner.vue'
 import TariffComponent from '~/components/TariffComponent.vue'
+import FooterComponent from '~/components/FooterComponent.vue'
 import bannerMain from '~/static/banner-main.png'
 import bannerDobro from '~/static/banner-dobro.jpg'
 import bannerAeroportation from '~/static/banner-aeroportation.png'
@@ -52,7 +54,8 @@ export default {
     components: {
         HeaderComponent,
         HeaderBanner,
-        TariffComponent
+        TariffComponent,
+        FooterComponent
     }
 }
 </script>
@@ -74,10 +77,8 @@ export default {
         right: 100%;
     }
     .header-main {
-        position: absolute;
-        top: 166px;
-        left: calc(50% - 1000px);
-        z-index: 1
+       margin-top: 154px;
+        z-index: 3
     }
     .header-carousel  {
         height: 500px;

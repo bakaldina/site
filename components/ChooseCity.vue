@@ -3,8 +3,8 @@
         <v-toolbar class="choose-city-toolbar" flat height="40">
             <div class="wrapper">
                 <v-layout align-center justify-space-between class="wrapper-layout pt-0">
-                    <v-toolbar-title class="font-weight-regular subtitle-1 mb-5 mr-3">Ваш город:</v-toolbar-title>
-                    <v-overflow-btn height="40" append-icon="keyboard_arrow_down" text :items="items" label="Москва"></v-overflow-btn>
+                    <v-toolbar-title color="#000" class="font-weight-regular subtitle-1 mb-5 mr-3">Ваш город:</v-toolbar-title>
+                    <v-overflow-btn flat height="40" append-icon="keyboard_arrow_down" color="#ff7200" text :items="items" label="Москва"></v-overflow-btn>
                     <v-spacer></v-spacer>
                     <v-spacer></v-spacer>
                     <v-spacer></v-spacer>
@@ -33,8 +33,13 @@
     .choose-city-toolbar .v-toolbar__content {
         padding-top: 0;
     }
-    /*.wrapper-layout {*/
-        /*height: 53px;*/
-
-    /*}*/
+    .theme--light.v-overflow-btn:hover .v-input__slot, .theme--light.v-overflow-btn.v-input--is-focused .v-input__slot, .theme--light.v-overflow-btn.v-select--is-menu-active .v-input__slot {
+        box-shadow: none;
+    }
+    .v-list-item--active {
+        background-color: #fff!important;
+    }
+    .v-application .primary--text {
+        color: #000!important;
+    }
 </style>

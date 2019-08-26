@@ -4,6 +4,9 @@
 .application {
     font-family: 'Roboto Regular', sans-serif;
 }
+.v-application .primary--text {
+    color: #000!important;
+}
 .wrapper {
      width: 1000px !important;
      margin: auto;
