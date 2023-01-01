@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^3.0.0",
     "sass": "^1.22.9",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^7.1.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.2.1",
+    "@nuxtjs/vuetify": "^1.12.3",
     "deepmerge": "^4.0.0",
     "fibers": "^4.0.1",
     "nodemon": "^1.18.9",
